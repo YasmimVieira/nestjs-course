@@ -10,7 +10,7 @@ export class TasksController {
 
     @Get('/:id')
     public findOne(@Param() params: any): string {
-        return params
+        return `The numbers is ${params}`
     }
 }
 
